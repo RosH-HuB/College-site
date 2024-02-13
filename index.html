@@ -87,7 +87,14 @@
             <div id="loginForm" class="form-content">
                 <input type="email" placeholder="Email" required>
                 <input type="password" placeholder="Password" required>
-                <a href="student-or-faculty.html" class="tab">Login</a>
+                <button onclick="redirectToPage()">login</button>
+
+    <script>
+        function redirectToPage() {
+            // Change "desired_page.html" to the URL of the page you want to link to
+            window.location.href = "student-or-faculty.html";
+
+    </script>
             </div>
             <div id="signupForm" class="form-content">
                 <input type="text" placeholder="Full Name" required>
